@@ -16,6 +16,10 @@ class TestValidateCpf(unittest.TestCase):
         result = validate_cpf('529.982.247/25')
         self.assertFalse(result)
 
+    def test_given_cpf_without_mask_the_return_is_true(self):
+        result = validate_cpf('52998224725')
+        expected = True
+        self.assertEqual(result, expected)
 
 if __name__ == '__main__':
     unittest.main()
