@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gusttavoaguiarr/examples-tests-in-python.svg?branch=master)](https://travis-ci.org/gusttavoaguiarr/examples-tests-in-python)
+
 # Exemplos de exercícios com testes em Python
 
 Este projeto foi criado para fins didáticos apenas.
